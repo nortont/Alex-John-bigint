@@ -67,7 +67,7 @@ Bigint::operator int () const {
  * Arithmetic operations
  *
  * No attempt to optimise for leading zeros.
- * And don't forget that the MSD is on the right!!
+ * And don't forget that the MSD is on the _right_!!
  */
 
 Bigint operator+ (const Bigint& n1, const Bigint& n2) {
@@ -173,3 +173,5 @@ istream& operator>> (istream& in, Bigint& n) {
     }
     return in;
 }
+
+
