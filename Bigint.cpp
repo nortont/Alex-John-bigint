@@ -159,7 +159,7 @@ istream& operator>> (istream& in, Bigint& n) {
         cout << "operator>>" << endl;
         cout << setw(4) << "[]" << setw(10) << "n" << endl;
 #endif
-        for (int i = 0; v = strSize - 1; i <= DIGITS - 1; ++i, --v;) {
+        for (int i = 0, v = strSize - 1; i <= DIGITS - 1; ++i, --v) {
             if (v >= 0) {
             n.digits[i] = s[v] - '0';
             } else {
