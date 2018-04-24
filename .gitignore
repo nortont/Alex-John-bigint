@@ -1,3 +1,7 @@
+
+# Created by https://www.gitignore.io/api/c++,netbeans
+
+### C++ ###
 # Prerequisites
 *.d
 
@@ -30,3 +34,15 @@
 *.exe
 *.out
 *.app
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+nbactions.xml
+
+
+# End of https://www.gitignore.io/api/c++,netbeans
